@@ -1,0 +1,97 @@
+{
+    "error_counts": 5,
+    "total_response_time": 4560,
+    "total_transactions": 10,
+    "entries": [
+        {
+            "timestamp": "2023-07-10T14:32:15Z",
+            "service_name": "serviceA",
+            "status_code": 200,
+            "response_time_ms": 123,
+            "user_id": "user123",
+            "transaction_id": "transaction456",
+            "additional_info": "about the request"
+        },
+        {
+            "timestamp": "2023-07-10T14:32:17Z",
+            "service_name": "serviceB",
+            "status_code": 500,
+            "response_time_ms": 456,
+            "user_id": "user124",
+            "transaction_id": "transaction457",
+            "additional_info": "processing the request"
+        },
+        {
+            "timestamp": "2023-07-10T14:32:18Z",
+            "service_name": "serviceC",
+            "status_code": 404,
+            "response_time_ms": 789,
+            "user_id": "user125",
+            "transaction_id": "transaction458",
+            "additional_info": "not found"
+        },
+        {
+            "timestamp": "2023-07-10T14:32:19Z",
+            "service_name": "serviceA",
+            "status_code": 200,
+            "response_time_ms": 234,
+            "user_id": "user126",
+            "transaction_id": "transaction459",
+            "additional_info": "about the request"
+        },
+        {
+            "timestamp": "2023-07-10T14:32:20Z",
+            "service_name": "serviceB",
+            "status_code": 200,
+            "response_time_ms": 345,
+            "user_id": "user127",
+            "transaction_id": "transaction460",
+            "additional_info": "about the request"
+        },
+        {
+            "timestamp": "2023-07-10T14:32:21Z",
+            "service_name": "serviceC",
+            "status_code": 503,
+            "response_time_ms": 567,
+            "user_id": "user128",
+            "transaction_id": "transaction461",
+            "additional_info": "unavailable"
+        },
+        {
+            "timestamp": "2023-07-10T14:32:22Z",
+            "service_name": "serviceA",
+            "status_code": 200,
+            "response_time_ms": 678,
+            "user_id": "user129",
+            "transaction_id": "transaction462",
+            "additional_info": "about the request"
+        },
+        {
+            "timestamp": "2023-07-10T14:32:23Z",
+            "service_name": "serviceB",
+            "status_code": 400,
+            "response_time_ms": 123,
+            "user_id": "user130",
+            "transaction_id": "transaction463",
+            "additional_info": "request"
+        },
+        {
+            "timestamp": "2023-07-10T14:32:24Z",
+            "service_name": "serviceC",
+            "status_code": 200,
+            "response_time_ms": 456,
+            "user_id": "user131",
+            "transaction_id": "transaction464",
+            "additional_info": "about the request"
+        },
+        {
+            "timestamp": "2023-07-10T14:32:25Z",
+            "service_name": "serviceA",
+            "status_code": 500,
+            "response_time_ms": 789,
+            "user_id": "user132",
+            "transaction_id": "transaction465",
+            "additional_info": "server error"
+        }
+    ],
+    "average_response_time": 456.0
